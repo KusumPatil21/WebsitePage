@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+
+    
+   
+
+}
+.section1{
+ 
+    margin-bottom: 20px;
+    margin-left: 10%;
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px;
+}
+
+
+
+.cart{
+
+    width: 30%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    
+}
+
+h3,h2{
+    text-align:center;
+}
+img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 50px;
+}
+
+button:hover{
+
+    background-color: rgba(222, 225, 16, 0.72);
+    
+}
+del{
+
+    color: rgba(255, 0, 0, 0.553);
+}
+
+#misal{
+
+    filter: blur(5px);
+    transition: 1s;
+}
+#misal:hover{
+
+    filter: blur(0px);
+}
+#thali{
+    
+    transition: 1s;
+
+}
+#thali:hover{
+
+    transform: scale(1.2);
+}
+
+#ladu
+{
+    opacity: 0.5;
+    transition: 1s;
+}
+#ladu:hover{
+
+    opacity: 1;
+}
+
+#biryani{
+
+    transition: 1s;
+}
+#biryani:hover{
+    transform: rotate(360deg);
+}
+
+
+#simple{
+
+    filter: blur(5px);
+    transition: 1s;
+}
+#simple:hover{
+
+    filter: blur(0px);
+}
+#paithani{
+    
+    transition: 1s;
+
+}
+#paithani:hover{
+
+    transform: scale(1.2);
+}
+
+#banrasi
+{
+    opacity: 0.5;
+    transition: 1s;
+}
+#banrasi:hover{
+
+    opacity: 1;
+}
+
+#party{
+
+    transition: 1s;
+}
+#party:hover{
+    transform: rotate(360deg);
+}
